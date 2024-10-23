@@ -1,3 +1,10 @@
 site_name: My Documentation
 theme:
   name: material
+  palette:
+    scheme: slate  # Predefined dark theme (alternative: 'dark')
+    primary: black  # Primary color
+    accent: cyan  # Accent color
+  features:
+    - navigation.tabs
+    - navigation.top
