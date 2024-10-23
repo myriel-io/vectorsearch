@@ -7,7 +7,10 @@ theme:
          - Hello
          - World
         categories_toc: true
-    
+        
+  markdown_extensions:
+    - attr_list 
+
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -36,3 +39,4 @@ theme:
 
   icon:
     repo: fontawesome/brands/git-alt
+
