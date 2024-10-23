@@ -1,10 +1,38 @@
-site_name: My Documentation
+site_name: DavidMyriel.com
 theme:
   name: material
+  plugins:
+    - blog:
+        categories_allowed:
+         - Hello
+         - World
+        categories_toc: true
+    
   palette:
-    scheme: slate  # Predefined dark theme (alternative: 'dark')
-    primary: black  # Primary color
-    accent: cyan  # Accent color
-  features:
-    - navigation.tabs
-    - navigation.top
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  repo_url: https://github.com/davidmyriel/blog
+  repo_name: davidmyriel/blog
+
+  icon:
+    repo: fontawesome/brands/git-alt
