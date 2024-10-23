@@ -1,3 +1,7 @@
 [build]
 command = "pip install -r requirements.txt && mkdocs build"
 publish = "site"
+
+[context.deploy-preview]
+command = "pip install -r requirements.txt && mkdocs build"
+publish = "site"
