@@ -1,31 +1,28 @@
-site_name: Vector Search | Weekly Topics
+site_name: Vector Search | Weekly Topics & News
+site_description: an example blog set up following the tutorial
+site_url: http://www.vectorsearch.tech
+
 theme:
   name: material
-
-  Plugins:
-    - Blog:
-        authors_profiles: true
-  
-  nav:
-  - index.md
-  - Blog:
-    - blog/index.md
-        
-  markdown_extensions:
-    - attr_list 
-
+  icon:
+    logo: material/rocket-launch-outline
   palette:
       scheme: slate
       primary: black
       accent: indigo
-
   font:
     text: Roboto
     code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.path
 
-  repo_url: https://github.com/davidmyriel/blog
-  repo_name: davidmyriel/blog
+repo_url: https://github.com/davidmyriel/blog
+repo_name: davidmyriel/blog
 
-  icon:
-    repo: fontawesome/brands/git-alt
-
+plugins:
+  - tags:
+      tags_file: tags.md
+  - search
+  - blog: 
+      blog_dir: . 

@@ -1,3 +1,0 @@
-# Welcome to Blog
-
-BlogBlog
