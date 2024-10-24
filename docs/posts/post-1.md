@@ -12,7 +12,7 @@ authors:
 ---
 # What is a Vector Database?
 
-![img](/img/vector-database.png)
+![img](/img/hybrid.gif)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -21,6 +21,7 @@ massa, nec semper lorem quam in massa.
 <!-- more -->
 
 ## Overview
+![img](/img/post-1/image1.png)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua.
 
@@ -53,7 +54,7 @@ import tensorflow as tf
     ```
 
 More info
-
+![img](/img/post-1/image2.png)
 !!! example
 
     === "Unordered List"

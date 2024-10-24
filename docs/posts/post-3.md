@@ -61,3 +61,6 @@ tempor incididunt ut labore et dolore magna aliqua.
     [:octicons-arrow-right-24: License](#)
 
 </div>
+
+[Subscribe to our newsletter](#){ .md-button }
+
