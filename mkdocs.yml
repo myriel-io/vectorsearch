@@ -50,7 +50,9 @@ plugins:
 
 extra:
   generator: false
-  social:
+  analytics:
+    provider: google
+    property: G-VT22GS7WB4
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/davidmyriel
