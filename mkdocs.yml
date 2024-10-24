@@ -1,35 +1,24 @@
-site_name: DavidMyriel.com
+site_name: Vector Search | Weekly Topics
 theme:
   name: material
-  plugins:
-    - blog:
-        categories_allowed:
-         - Hello
-         - World
-        categories_toc: true
+
+  Plugins:
+    - Blog:
+        authors_profiles: true
+  
+  nav:
+  - index.md
+  - Blog:
+    - blog/index.md
         
   markdown_extensions:
     - attr_list 
 
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       accent: indigo
-      toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
+
   font:
     text: Roboto
     code: Roboto Mono
