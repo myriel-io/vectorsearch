@@ -9,13 +9,33 @@ theme:
   palette:
       scheme: slate
       primary: black
-      accent: indigo
+      accent: red
   font:
-    text: Roboto
+    text: Samurai
     code: Roboto Mono
   features:
     - navigation.tabs
     - navigation.path
+    - navigation.footer
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
 
 repo_url: https://github.com/davidmyriel/blog
 repo_name: davidmyriel/blog
@@ -26,3 +46,21 @@ plugins:
   - search
   - blog: 
       blog_dir: . 
+
+
+extra:
+  generator: false
+  social:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/davidmyriel
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/mkdocs-material/
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/davidmyriel
+
+copyright: Copyright &copy; 2024 David Myriel | Opinions expressed are solely my own and do not express the views or opinions of my employer.
