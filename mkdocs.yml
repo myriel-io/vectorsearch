@@ -36,7 +36,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
-
 repo_url: https://github.com/davidmyriel/blog
 repo_name: davidmyriel/blog
 
@@ -46,7 +45,6 @@ plugins:
   - search
   - blog: 
       blog_dir: . 
-
 
 extra:
   generator: false
