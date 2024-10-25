@@ -1,5 +1,7 @@
 # VectorSearch.Tech
 
+![Vector Search](/docs/img/logo.png)
+
 Welcome to the **Vector Search Technologies** repository! This project hosts the code and content for a website dedicated to exploring the world of vector search technologies. Whether you're new to vector databases or an expert seeking in-depth insights, this website provides blogs, tutorials, and guides to support developers, data scientists, and researchers working with vector search solutions. 
 
 ## 🌐 Website Overview
@@ -65,4 +67,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 
 For any inquiries, feel free to reach out to David Myriel at:  
 - **LinkedIn**: [David Myriel](https://linkedin.com/in/davidmyriel)  
-
