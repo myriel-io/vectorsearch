@@ -40,8 +40,6 @@ repo_url: https://github.com/davidmyriel/blog
 repo_name: davidmyriel/blog
 
 plugins:
-  - tags:
-      tags_file: tags.md
   - search
   - blog: 
       blog_dir: . 
