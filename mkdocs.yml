@@ -14,7 +14,6 @@ theme:
     text: Samurai
     code: Roboto Mono
   features:
-    - navigation.tabs
     - navigation.path
     - navigation.footer
     - content.code.copy
@@ -43,7 +42,7 @@ plugins:
   - search
   - blog: 
       blog_dir: . 
-
+      authors_profiles: true
 extra:
   generator: false
   analytics:

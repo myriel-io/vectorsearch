@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>http://www.vectorsearch.tech/</loc>
+         <lastmod>2025-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://www.vectorsearch.tech/2024/11/30/what-is-a-data-model-for-unstructured-data/</loc>
+         <lastmod>2025-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://www.vectorsearch.tech/2024/12/01/inverted-index/</loc>
+         <lastmod>2025-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://www.vectorsearch.tech/archive/2024/</loc>
+         <lastmod>2025-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://www.vectorsearch.tech/category/vector-search/</loc>
+         <lastmod>2025-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://www.vectorsearch.tech/category/vector-databases/</loc>
+         <lastmod>2025-01-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
