@@ -88,11 +88,11 @@ All of this checks out with the average user experience reported on [r/LocalLlam
 
 ## The general-purpose LLM for enterprises
 
-In Qdrant's first year of selling Enterprise services, we discovered the importance of open-source in business. 
+In my first year of working with enterprise services for vector databases, I learned how valuable open-source is for business.
 
 > The use cases are not that complex - **but the data must stay private**.
 
-Though our [**Qdrant Cloud SaaS**](https://cloud.qdrant.io/) is well known by this point, many users opt for [**Hybrid Cloud offering**](/hybrid-cloud/), mostly due to compliance conflicts. 
+Though Database as a Service is well known by this point, many users opt for **Bring Your Own Cloud offerings**, mostly due to compliance conflicts. 
 
 This is why I believe that DeepSeek-V3 is the heavy hitter for 2025. We are **in the world of production** now and GenAI systems built with OS components are about to start scaling. They will cost a lot of money.
 
@@ -106,12 +106,12 @@ Feeding DeepSeek-V3 relevant context beyond its 128K context window is the ultim
 
 ## Tutorial
 
-[**Qdrant prepared a minimal code implementation**](https://github.com/qdrant/examples/blob/master/rag-with-qdrant-deepseek/deepseek-qdrant.ipynb) for you to copy and scale as part of your system. Give it a try and report back to us. 
+[**Qdrant prepared a minimal code implementation**](https://github.com/qdrant/examples/blob/master/rag-with-qdrant-deepseek/deepseek-qdrant.ipynb) for you to copy and scale as part of your system. Give it a try and report back to me. 
 
 [![tutorial](/img/gpt-is-dead/tutorial.png)](https://github.com/qdrant/examples/blob/master/rag-with-qdrant-deepseek/deepseek-qdrant.ipynb)
 
 *I'd like to know about your total cost, response accuracy and system scalability.*
 
-Please share these results with on [**Qdrant's Discord**](https://qdrant.to/discord) or publicly on social networks. 
+Feel free to reach out to me via [**GitHub**](https://www.github.com/davidmyriel/) or publicly on social [LinkedIn](https://www.linkedin.com/in/davidmyriel/). 
 
 
