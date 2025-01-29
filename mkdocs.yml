@@ -5,7 +5,7 @@ site_url: http://www.vectorsearch.tech
 theme:
   name: material
   icon:
-    logo: material/rocket-launch-outline
+    logo: material/vector-polyline
   palette:
       scheme: slate
       primary: black
