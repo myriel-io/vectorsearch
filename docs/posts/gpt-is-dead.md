@@ -6,14 +6,12 @@ tags:
   - OpenAI
 authors:
   - myriel
-social:
-  image: /img/gpt-is-dead/social_preview.png
 hide:
   - navigation
 ---
 # GPT is Dead: The Rise of DeepSeek
 
-![gpt-is-dead](/img/gpt-is-dead/gpt-deepseek.jpeg)
+![gpt-is-dead](/img/gpt-is-dead/social_preview.png)
 
 !!! warning annotate "It’s not just GPT, or Llama or Qwen"
 
@@ -23,13 +21,15 @@ hide:
 
 ![karpathy](/img/gpt-is-dead/karpathy.png)
 
-Engineering is all about solving big problems with less resources. That’s exactly what DeepSeek’s young engineers did…and they wrote [**a world-class academic report**](https://arxiv.org/pdf/2412.19437). 
-
 DeepSeek-V3 is a mixture-of-experts (MoE) transformer that comprises 671 billion parameters, and 37B of those are active for each token. The team trained the model in less than a 1/10 of what it [**took to train Llama 3.1**](https://build.nvidia.com/meta/llama-3_1-405b-instruct/modelcard). 
 
 By launching this model in late December 2024, DeepSeek has redefined the standard for Large Language Models.
 
-### The real world is not a Jupyter Notebook
+Engineering is all about solving big problems with less resources. That’s exactly what DeepSeek’s young engineers did…and they wrote [**a world-class academic report**](https://arxiv.org/pdf/2412.19437). 
+
+![tony-start](/img/gpt-is-dead/gpt-deepseek.jpeg)
+
+## The real world is not a Jupyter Notebook
 
 For those of you not living in Production Land - just a reminder: Working with LLMs costs a lot of compute. Just a basic hosted GPU can start at $500 on GCP. Experimenting with compute-heavy applications can quickly add up.
 </br>
@@ -50,7 +50,7 @@ DeepSeek's cost is a far cry from what we’ve seen on the customer side - with 
 
 > This is what competition looks like.
 
-### Let’s look at the benchmarks
+## Let’s look at the benchmarks
 
 A meta-analysis of DeepSeek’s own benchmark results can be compiled from the report’s findings. DeepSeek-V3 is the best across all domains. **This sounds too good to be true.**
 
@@ -71,23 +71,22 @@ Though its reasoning capabilities are not beyond O1, the Chinese model holds its
 
 ![chain-of-thought](/img/gpt-is-dead/chain-of-thought.png)
 
-### Yes - it does pass the “strawberry” question. 
+## Yes - it does pass the “strawberry” question. 
 
 *No - it isn’t as consistent across all domains. In practice - it isn't perfect.*
 
 All of this checks out with the average user experience reported on [r/LocalLlama](https://www.reddit.com/r/LocalLLaMA/comments/1i2y810/is_deepseek_v3_overhyped/), where DeepSeek-V3 is a major source of hype. 
 
-> *The catch is cost. Deepseek offers maybe 75% of the performance as Sonnet but at a very small fraction of the cost. It was trained at a very small fraction of the cost, and asks users for a small fraction of the cost. That's why it's in a league of its own. I used Cline last night and maybe thirty minutes of casual coding clocked me 1.50 dollars. Two hours of DeepSeek usage clocked me maybe 15 cents. It's not even close.*
-> 
-> 
-> *Sonnet is better. Definitely, concretely better. It solves problems for me that leave DeepSeek spinning in circles. But the cost-efficiency of DeepSeek is a crazy eyebrow-raiser — it is cheap enough to be effectively used unmetered for most people.*
-> 
-> *These days I default to DeepSeek and only tag Sonnet into the ring when a problem is particularly difficult to solve. For writing boilerplate, doing basic lookup, and writing simple functions — DeepSeek is unmatched.*
-> 
-> — Recoil42, a top commenter on this subreddit
-> 
+!!! note "Recoil42, a top commenter on this subreddit"
 
-### The general-purpose LLM for enterprises
+    *The catch is cost. Deepseek offers maybe 75% of the performance as Sonnet but at a very small fraction of the cost. It was trained at a very small fraction of the cost, and asks users for a small fraction of the cost. That's why it's in a league of its own. I used Cline last night and maybe thirty minutes of casual coding clocked me 1.50 dollars. Two hours of DeepSeek usage clocked me maybe 15 cents. It's not even close.*
+
+    *Sonnet is better. Definitely, concretely better. It solves problems for me that leave DeepSeek spinning in circles. But the cost-efficiency of DeepSeek is a crazy eyebrow-raiser — it is cheap enough to be effectively used unmetered for most people.*
+
+    *These days I default to DeepSeek and only tag Sonnet into the ring when a problem is particularly difficult to solve. For writing boilerplate, doing basic lookup, and writing simple functions — DeepSeek is unmatched.*
+   
+
+## The general-purpose LLM for enterprises
 
 In Qdrant's first year of selling Enterprise services, we discovered the importance of open-source in business. 
 
@@ -97,13 +96,15 @@ Though our [**Qdrant Cloud SaaS**](https://cloud.qdrant.io/) is well known by th
 
 This is why I believe that DeepSeek-V3 is the heavy hitter for 2025. We are **in the world of production** now and GenAI systems built with OS components are about to start scaling. They will cost a lot of money.
 
-### All you need is memory
+## All you need is memory
 
 DeepSeek-V3 is rough around the edges - but this does not matter when you use a [**vector database**](https://qdrant.tech) like Qdrant. 
 
 ![vector-database](/img/gpt-is-dead/vector-database.png)
 
 Feeding DeepSeek-V3 relevant context beyond its 128K context window is the ultimate RAG scenario. **But you already know about RAG, and you most certainly know about [Qdrant](/qdrant-vector-database/)**.
+
+## Tutorial
 
 [**Qdrant prepared a minimal code implementation**](https://github.com/qdrant/examples/blob/master/rag-with-qdrant-deepseek/deepseek-qdrant.ipynb) for you to copy and scale as part of your system. Give it a try and report back to us. 
 
