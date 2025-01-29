@@ -1,5 +1,5 @@
-site_name: Vector Search | Weekly Topics & News
-site_description: an example blog set up following the tutorial
+site_name: Vector Search 
+site_description: Weekly topics & news in the world of vector databases & search tech.
 site_url: http://www.vectorsearch.tech
 
 theme:
