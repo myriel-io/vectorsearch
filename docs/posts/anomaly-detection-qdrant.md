@@ -51,15 +51,13 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import PointStruct, VectorParams, Distance
 from sklearn.ensemble import IsolationForest
 ```
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image1.png){ align=left }
-</br>
 
 - `numpy`: Used for numerical operations and data generation.
 - `matplotlib.pyplot`: Used for visualization.
 - `qdrant_client`: Qdrant's Python client for vector storage and retrieval.
 - `IsolationForest`: The algorithm used for anomaly detection.
 
-</br>
+![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image1.png)
 
 ## Step 2: Generate Synthetic Data
 To simulate real-world data, we create 490 normal data points that are randomly distributed around a mean value of 0.5 with some variance. Additionally, we generate 10 anomalous data points that are positioned further away, making them easier to detect.
@@ -83,9 +81,9 @@ print(f"Generated {data.shape[0]} vectors of dimension {data.shape[1]}")
 
 By keeping anomalies at a different mean value (1.5), they are positioned distinctly from the normal points, making them detectable through distance-based methods.
 
-## Step 3: Connect to Qdrant and Create a Collection
+![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image2.png)
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image2.png){ align=right }
+## Step 3: Connect to Qdrant and Create a Collection
 
 Qdrant is a vector search engine that allows efficient similarity search. In this specific tutorial, we will only use Qdrant to store vectors and to visualize their distribution. The anomaly detection will be handled by the Isolation Forest algorithm. 
 
