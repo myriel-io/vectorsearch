@@ -13,7 +13,7 @@ hide:
 
 ![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/social.png)
 
-This is a beginner tutorial which uses Isolation Forest and Qdrant for storage and visualization. A mode advanced tutorial using Qdrant's semantic search and the Distance Matrix API will be available soon.  
+This beginner tutorial uses the Isolation Forest algorithm for anomaly detection and Qdrant for storage and visualization.  
 
 In this specific demo, we will explore a Stronghold ruin and look for ghosts. Our hero will go through all the Shadows and see if he can come across anomalies, aka Wraiths. Take a look at the YouTube demo:
 
