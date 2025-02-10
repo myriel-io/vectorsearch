@@ -19,7 +19,7 @@ In this specific demo, we will explore a Stronghold ruin and look for ghosts. Ou
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/teRFAL47XFk?si=WF_IpnXR50SL4Q_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## [👉 To just run the code - here is the Python notebook](https://github.com/davidmyriel)
+## [👉 To just run the code - here is the Python notebook](https://github.com/davidmyriel/vectorsearch-examples/blob/main/anomaly-detection-1/anomalydetection.ipynb)
 
 ## Introduction
 
@@ -240,7 +240,7 @@ You can hover over each point and see the content of the metadata.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/teRFAL47XFk?si=WF_IpnXR50SL4Q_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## [👉 To just run the code - here is the Python notebook](https://github.com/davidmyriel)
+## [👉 To just run the code - here is the Python notebook](https://github.com/davidmyriel/vectorsearch-examples/blob/main/anomaly-detection-1/anomalydetection.ipynb)
 
 ## Conclusion
 
