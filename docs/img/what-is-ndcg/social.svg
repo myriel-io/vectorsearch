@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="628" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {
+      font-family: Arial, sans-serif;
+      font-weight: 400;
+    }
+    .title {
+      font-size: 60px;
+      font-weight: 700;
+    }
+    .subtitle {
+      font-size: 40px;
+      font-weight: 500;
+    }
+    .relevance {
+      font-size: 28px;
+    }
+    .formula {
+      font-size: 32px;
+      font-style: italic;
+    }
+    .label {
+      font-size: 24px;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#1e1e2e"/>
+  
+  <!-- Title and Subtitle -->
+  <text x="600" y="100" fill="#ffffff" text-anchor="middle" class="title">Understanding NDCG</text>
+  <text x="600" y="160" fill="#94e2d5" text-anchor="middle" class="subtitle">Normalized Discounted Cumulative Gain</text>
+
+  <!-- Left side: Ideal Ranking -->
+  <rect x="150" y="220" width="300" height="80" rx="10" fill="#89b4fa" opacity="0.9"/>
+  <rect x="150" y="310" width="300" height="80" rx="10" fill="#89b4fa" opacity="0.7"/>
+  <rect x="150" y="400" width="300" height="80" rx="10" fill="#89b4fa" opacity="0.5"/>
+  <rect x="150" y="490" width="300" height="80" rx="10" fill="#89b4fa" opacity="0.3"/>
+
+  <text x="300" y="270" fill="#1e1e2e" text-anchor="middle" class="relevance">Result A (Relevance: 3)</text>
+  <text x="300" y="360" fill="#1e1e2e" text-anchor="middle" class="relevance">Result B (Relevance: 2)</text>
+  <text x="300" y="450" fill="#1e1e2e" text-anchor="middle" class="relevance">Result C (Relevance: 2)</text>
+  <text x="300" y="540" fill="#1e1e2e" text-anchor="middle" class="relevance">Result D (Relevance: 1)</text>
+
+  <text x="300" y="200" fill="#ffffff" text-anchor="middle" class="label">Ideal Ranking (IDCG)</text>
+
+  <!-- Right side: Actual Ranking -->
+  <rect x="750" y="220" width="300" height="80" rx="10" fill="#f38ba8" opacity="0.9"/>
+  <rect x="750" y="310" width="300" height="80" rx="10" fill="#f38ba8" opacity="0.7"/>
+  <rect x="750" y="400" width="300" height="80" rx="10" fill="#f38ba8" opacity="0.5"/>
+  <rect x="750" y="490" width="300" height="80" rx="10" fill="#f38ba8" opacity="0.3"/>
+
+  <text x="900" y="270" fill="#1e1e2e" text-anchor="middle" class="relevance">Result B (Relevance: 2)</text>
+  <text x="900" y="360" fill="#1e1e2e" text-anchor="middle" class="relevance">Result A (Relevance: 3)</text>
+  <text x="900" y="450" fill="#1e1e2e" text-anchor="middle" class="relevance">Result D (Relevance: 1)</text>
+  <text x="900" y="540" fill="#1e1e2e" text-anchor="middle" class="relevance">Result C (Relevance: 2)</text>
+
+  <text x="900" y="200" fill="#ffffff" text-anchor="middle" class="label">Actual Ranking (DCG)</text>
+
+  <!-- Formula -->
+  <text x="600" y="400" fill="#cdd6f4" text-anchor="middle" class="formula">NDCG = DCG / IDCG ≈ 0.85</text>
+  
+  <!-- Arrows -->
+  <line x1="500" y1="380" x2="700" y2="380" stroke="#fab387" stroke-width="4" stroke-dasharray="10,5"/>
+  <polygon points="690,370 710,380 690,390" fill="#fab387"/>
+
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="30" fill="#cba6f7" opacity="0.5"/>
+  <circle cx="1100" cy="100" r="30" fill="#cba6f7" opacity="0.5"/>
+  <circle cx="100" cy="528" r="30" fill="#cba6f7" opacity="0.5"/>
+  <circle cx="1100" cy="528" r="30" fill="#cba6f7" opacity="0.5"/>
+</svg> 
