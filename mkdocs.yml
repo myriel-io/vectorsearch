@@ -34,6 +34,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
 
 repo_url: https://github.com/davidmyriel/blog
 repo_name: davidmyriel/blog
@@ -60,5 +62,6 @@ extra:
       link: https://github.com/davidmyriel
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/davidmyriel/
+  mathjax: true
 
 copyright: Copyright &copy; 2025 David Myriel | Opinions expressed are solely my own and do not express the views or opinions of my employer.
