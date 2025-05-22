@@ -11,7 +11,7 @@ hide:
 ---
 # Anomaly Detection with Isolation Forest and Qdrant
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/social.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/social.png)
 
 This beginner tutorial uses the Isolation Forest algorithm for anomaly detection and Qdrant for storage and visualization.  
 
@@ -57,7 +57,7 @@ from sklearn.ensemble import IsolationForest
 - `qdrant_client`: Qdrant's Python client for vector storage and retrieval.
 - `IsolationForest`: The algorithm used for anomaly detection.
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image2.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/image2.png)
 
 ## Step 2: Generate Synthetic Data
 To simulate real-world data, we create 490 normal data points that are randomly distributed around a mean value of 0.5 with some variance. Additionally, we generate 10 anomalous data points that are positioned further away, making them easier to detect.
@@ -81,7 +81,7 @@ print(f"Generated {data.shape[0]} vectors of dimension {data.shape[1]}")
 
 By keeping anomalies at a different mean value (1.5), they are positioned distinctly from the normal points, making them detectable through distance-based methods.
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image1.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/image1.png)
 
 ## Step 3: Connect to Qdrant and Create a Collection
 
@@ -121,7 +121,7 @@ print(f"Inserted {len(points)} vectors into Qdrant.")
 Open up Qdrant Dashboard on [http://localhost:6333/dashboard](http://localhost:6333/dashboard). 
 Your collection should be there, with the appropriate config.
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/collections.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/collections.png)
 
 ## Step 5: Retrieve Stored Vectors
 To validate that the data has been successfully stored, we retrieve the stored vectors from Qdrant.
@@ -138,7 +138,7 @@ print(f"Retrieved {len(retrieved_vectors)} vectors from Qdrant.")
 
 ## Step 6: Train Isolation Forest for Anomaly Detection
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image3.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/image3.png)
 
 We train an Isolation Forest model to detect anomalies in the dataset. Isolation Forest works by isolating anomalies, which typically require fewer splits compared to normal points.
 
@@ -175,7 +175,7 @@ print("✅ Updated Qdrant with anomaly labels and image URLs.")
 ```
 ## Step 8: Discover Anomalies with Qdrant
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image4.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/image4.png)
 
 Qdrant provides a web UI where you can inspect the stored vectors and their associated metadata.
 
@@ -187,11 +187,11 @@ Qdrant provides a web UI where you can inspect the stored vectors and their asso
 
 4. You can filter by payload: `anomaly: Wraith`.
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/points.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/points.png)
 
 ## Step 9: Visualize Anomalies with PCA
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image5.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/image5.png)
 
 To visualize the results, we use Principal Component Analysis (PCA) to reduce the vector dimensions to 2D for plotting.
 
@@ -234,7 +234,7 @@ Explore the associated image URLs and metadata to understand how anomalies are d
 
 You can hover over each point and see the content of the metadata.
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/visualization.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/visualization.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/teRFAL47XFk?si=WF_IpnXR50SL4Q_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -252,6 +252,6 @@ This tutorial demonstrated how to:
 
 With these techniques, you can apply anomaly detection in real-world scenarios like fraud detection, network intrusion detection, and more!
 
-![anomaly-detection-qdrant](/img/anomaly-detection-qdrant/image6.png)
+![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/image6.png)
 
 
