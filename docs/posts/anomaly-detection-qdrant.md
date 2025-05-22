@@ -1,6 +1,8 @@
 ---
 date:
   created: 2025-02-10
+categories:
+  - Vector Search
 tags:
   - Qdrant
   - Anomaly Detection
@@ -9,10 +11,10 @@ authors:
 hide:
   - navigation
 ---
-# Anomaly Detection with Isolation Forest and Qdrant
+# **Anomaly Detection with Isolation Forest and Qdrant**
 
 ![anomaly-detection-qdrant](../img/anomaly-detection-qdrant/social.png)
-
+<!-- more -->
 This beginner tutorial uses the Isolation Forest algorithm for anomaly detection and Qdrant for storage and visualization.  
 
 In this specific demo, we will explore a Stronghold ruin and look for ghosts. Our hero will go through all the Shadows and see if he can come across anomalies, aka Wraiths. Take a look at the YouTube demo:

@@ -1,6 +1,8 @@
 ---
 date:
   created: 2025-01-28
+categories:
+  - Machine Learning
 tags:
   - Qdrant
   - OpenAI
@@ -8,11 +10,13 @@ authors:
   - myriel
 hide:
   - navigation
+links:
+  - posts/anomaly-detection-qdrant.md
 ---
-# GPT is Dead: The Rise of DeepSeek
+# **GPT is Dead: The Rise of DeepSeek**
 
 ![gpt-is-dead](../img/gpt-is-dead/social_preview.png)
-
+<!-- more -->
 !!! warning annotate "It's not just GPT, or Llama or Qwen"
 
     It's the entire idea that you have to spend $60-100 million on a frontier model.

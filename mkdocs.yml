@@ -1,4 +1,4 @@
-site_name: Vector Search | Weekly Topics & News
+site_name: Vector Search Weekly
 site_description: Weekly topics & news in the world of vector databases & search tech.
 site_url: http://www.vectorsearch.tech
 
@@ -16,6 +16,9 @@ theme:
   features:
     - navigation.path
     - navigation.footer
+    - navigation.indexes
+    - navigation.tabs.sticky
+    - navigation.expand
     - content.code.copy
     - content.code.select
     - content.code.annotate
@@ -42,9 +45,15 @@ repo_name: davidmyriel/blog
 
 plugins:
   - search
+  - tags
   - blog: 
+      archive: false
       blog_dir: . 
+      blog_toc: true
       post_url_format: "{slug}"
+      categories_allowed:
+        - Machine Learning
+        - Vector Search
 extra:
   generator: false
   analytics:
